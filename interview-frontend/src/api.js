@@ -1,33 +1,3 @@
-// const BASE_URL = "http://localhost:8080/api";
-//
-// export async function startSession(payload) {
-//     const res = await fetch(`${BASE_URL}/interview/start`, {
-//         method: "POST",
-//         headers: { "Content-Type": "application/json" },
-//         body: JSON.stringify(payload)
-//     });
-//     return res.json();
-// }
-//
-// export async function getNextQuestion(sessionId) {
-//     const res = await fetch(`${BASE_URL}/interview/next?sessionId=${sessionId}`);
-//     return res.json();
-// }
-//
-// export async function submitAnswer(data) {
-//     const res = await fetch(`${BASE_URL}/interview/submit`, {
-//         method: "POST",
-//         headers: { "Content-Type": "application/json" },
-//         body: JSON.stringify(data)
-//     });
-//     return res.json();
-// }
-//
-// export async function getSummary(sessionId) {
-//     const res = await fetch(`${BASE_URL}/interview/summary?sessionId=${sessionId}`);
-//     return res.json();
-// }
-
 const BASE = "http://localhost:8080/api"; // change if backend is on different host
 
 async function handleRes(res) {
