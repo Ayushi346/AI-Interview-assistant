@@ -41,8 +41,6 @@ Built using **React (Vite)**, **Spring Boot**, **MongoDB**, **Tailwind CSS**, an
 ### 🧾 Summary Page
 <img src="screenshots/summary.png" width="600">
 
-> Add these images in a folder named **screenshots/** inside the project.
-
 ---
 
 ## 🏗️ Tech Stack
